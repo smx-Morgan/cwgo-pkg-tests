@@ -23,6 +23,7 @@ replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 => ../../cwgo-pkg/
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos v0.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 v2.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 v2.0.0-00010101000000-000000000000
