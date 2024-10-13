@@ -32,6 +32,8 @@ replace github.com/cloudwego-contrib/cwgo-pkg/registry/polaris => ../../cwgo-pkg
 
 replace github.com/cloudwego-contrib/cwgo-pkg/registry/redis => ../../cwgo-pkg/registry/redis
 
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb => ../../cwgo-pkg/registry/servicecomb
+
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/etcd v0.0.0-00010101000000-000000000000
@@ -45,9 +47,11 @@ require (
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoskitex/v2 v2.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/polaris v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/redis v0.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/hertz v0.9.3
 	github.com/cloudwego/kitex v0.11.0
 	github.com/cloudwego/kitex-examples v0.3.3
+	github.com/go-chassis/sc-client v0.7.1-0.20220829010936-e0ff6c891c04
 	github.com/hashicorp/consul/api v1.29.4
 	github.com/hudl/fargo v1.4.0
 	github.com/nacos-group/nacos-sdk-go v1.1.5
@@ -87,18 +91,23 @@ require (
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dlclark/regexp2 v1.11.0 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/franela/goreq v0.0.0-20171204163338-bcd34c9993f8 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/go-chassis/cari v0.9.0 // indirect
+	github.com/go-chassis/foundation v0.4.0 // indirect
+	github.com/go-chassis/openlog v1.1.3 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8 // indirect
 	github.com/google/uuid v1.4.0 // indirect
+	github.com/gorilla/websocket v1.4.3-0.20210424162022-e8629af678b7 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.5.0 // indirect
@@ -113,6 +122,7 @@ require (
 	github.com/jhump/protoreflect v1.8.2 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
+	github.com/karlseguin/ccache/v2 v2.0.8 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.4 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -126,6 +136,7 @@ require (
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
 	github.com/nyaruka/phonenumbers v1.0.55 // indirect
 	github.com/op/go-logging v0.0.0-20160315200505-970db520ece7 // indirect
+	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/polarismesh/polaris-go v1.3.0 // indirect
@@ -136,6 +147,7 @@ require (
 	github.com/redis/go-redis/v9 v9.4.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
+	github.com/thoas/go-funk v0.9.3 // indirect
 	github.com/tidwall/gjson v1.17.3 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
