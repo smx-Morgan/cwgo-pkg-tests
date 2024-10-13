@@ -34,11 +34,16 @@ replace github.com/cloudwego-contrib/cwgo-pkg/registry/redis => ../../cwgo-pkg/r
 
 replace github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb => ../../cwgo-pkg/registry/servicecomb
 
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/zookeeper => ../../cwgo-pkg/registry/zookeeper
+
+replace github.com/cloudwego-contrib/cwgo-pkg/config/zookeeper => ../../cwgo-pkg/config/zookeeper
+
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/etcd v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 v2.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/config/zookeeper v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/etcd v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/eureka v0.0.0-00010101000000-000000000000
@@ -48,6 +53,7 @@ require (
 	github.com/cloudwego-contrib/cwgo-pkg/registry/polaris v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/redis v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb v0.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/registry/zookeeper v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/hertz v0.9.3
 	github.com/cloudwego/kitex v0.11.0
 	github.com/cloudwego/kitex-examples v0.3.3
@@ -102,6 +108,7 @@ require (
 	github.com/go-chassis/foundation v0.4.0 // indirect
 	github.com/go-chassis/openlog v1.1.3 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
+	github.com/go-zookeeper/zk v1.0.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
