@@ -20,13 +20,17 @@ replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos => ../../cwgo-pkg/con
 
 replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 => ../../cwgo-pkg/config/nacos/v2
 
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoskitex/v2 => ../../cwgo-pkg/registry/nacos/nacoskitex/v2
+
 require (
+	github.com/apache/thrift v0.20.0
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 v2.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 v2.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoskitex/v2 v2.0.0-00010101000000-000000000000
 	github.com/cloudwego/hertz v0.9.3
 	github.com/cloudwego/kitex v0.11.0
 	github.com/cloudwego/kitex-examples v0.3.3
@@ -42,7 +46,6 @@ require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1800 // indirect
 	github.com/aliyun/alibabacloud-dkms-gcs-go-sdk v0.2.2 // indirect
 	github.com/aliyun/alibabacloud-dkms-transfer-go-sdk v0.1.7 // indirect
-	github.com/apache/thrift v0.20.0 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
