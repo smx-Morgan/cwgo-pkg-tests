@@ -16,8 +16,13 @@ replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos => ../../cwgo-pkg/r
 
 replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 => ../../cwgo-pkg/registry/nacos/nacoshertz/v2
 
+replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos => ../../cwgo-pkg/config/nacos
+
+replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 => ../../cwgo-pkg/config/nacos/v2
+
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/config/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 v2.0.0-00010101000000-000000000000
@@ -100,6 +105,7 @@ require (
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
+	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/arch v0.2.0 // indirect
