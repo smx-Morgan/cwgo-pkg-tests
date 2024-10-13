@@ -38,7 +38,10 @@ replace github.com/cloudwego-contrib/cwgo-pkg/registry/zookeeper => ../../cwgo-p
 
 replace github.com/cloudwego-contrib/cwgo-pkg/config/zookeeper => ../../cwgo-pkg/config/zookeeper
 
+replace github.com/cloudwego-contrib/cwgo-pkg/config/apollo => ../../cwgo-pkg/config/apollo
+
 require (
+	github.com/cloudwego-contrib/cwgo-pkg/config/apollo v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/etcd v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos v0.0.0-00010101000000-000000000000
@@ -72,6 +75,7 @@ require (
 	github.com/aliyun/alibabacloud-dkms-gcs-go-sdk v0.2.2 // indirect
 	github.com/aliyun/alibabacloud-dkms-transfer-go-sdk v0.1.7 // indirect
 	github.com/apache/thrift v0.20.0 // indirect
+	github.com/apolloconfig/agollo/v4 v4.3.1 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
@@ -152,6 +156,7 @@ require (
 	github.com/prometheus/common v0.45.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/redis/go-redis/v9 v9.4.0 // indirect
+	github.com/shima-park/agollo v1.2.14 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/thoas/go-funk v0.9.3 // indirect
