@@ -2,19 +2,19 @@ module cwgo-test
 
 go 1.21
 
-replace github.com/hertz-contrib/registry/consul => ../registry/consul
+replace github.com/hertz-contrib/registry/consul => ../../registry/consul
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/consul => ../cwgo-pkg/registry/consul
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/consul => ../../cwgo-pkg/registry/consul
 
 replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/consul => ../cwgo-pkg/config/consul
+replace github.com/cloudwego-contrib/cwgo-pkg/config/consul => ../../cwgo-pkg/config/consul
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/utils => ../cwgo-pkg/config/utils
+replace github.com/cloudwego-contrib/cwgo-pkg/config/utils => ../../cwgo-pkg/config/utils
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos => ../cwgo-pkg/registry/nacos
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos => ../../cwgo-pkg/registry/nacos
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 => ../cwgo-pkg/registry/nacos/nacoshertz/v2
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 => ../../cwgo-pkg/registry/nacos/nacoshertz/v2
 
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000

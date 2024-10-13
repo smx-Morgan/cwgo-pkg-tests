@@ -60,10 +60,10 @@ func main() {
 	r := nacos.NewNacosResolver(nacosCli)
 
 	discoveryWithSD(r)
-	discoveryWithTag(r)
-	discoveryWithCustomizedAddr(r)
-	discoveryWithLoadBalanceOptions(r)
-	discoveryThenUsePostMethod(r)
+	// discoveryWithTag(r)
+	// discoveryWithCustomizedAddr(r)
+	// discoveryWithLoadBalanceOptions(r)
+	// discoveryThenUsePostMethod(r)
 }
 
 func discoveryWithSD(r discovery.Resolver) {
