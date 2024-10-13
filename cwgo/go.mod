@@ -22,12 +22,17 @@ replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 => ../../cwgo-pkg/
 
 replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoskitex/v2 => ../../cwgo-pkg/registry/nacos/nacoskitex/v2
 
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/etcd => ../../cwgo-pkg/registry/etcd
+
+replace github.com/cloudwego-contrib/cwgo-pkg/config/etcd => ../../cwgo-pkg/config/etcd
+
 require (
-	github.com/apache/thrift v0.20.0
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/config/etcd v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 v2.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/consul v0.0.0-00010101000000-000000000000
+	github.com/cloudwego-contrib/cwgo-pkg/registry/etcd v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 v2.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoskitex/v2 v2.0.0-00010101000000-000000000000
@@ -46,6 +51,7 @@ require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1800 // indirect
 	github.com/aliyun/alibabacloud-dkms-gcs-go-sdk v0.2.2 // indirect
 	github.com/aliyun/alibabacloud-dkms-transfer-go-sdk v0.1.7 // indirect
+	github.com/apache/thrift v0.20.0 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
@@ -66,11 +72,14 @@ require (
 	github.com/cloudwego/netpoll v0.6.4 // indirect
 	github.com/cloudwego/runtimex v0.1.0 // indirect
 	github.com/cloudwego/thriftgo v0.3.17 // indirect
+	github.com/coreos/go-semver v0.3.0 // indirect
+	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8 // indirect
@@ -109,6 +118,9 @@ require (
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.12 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.12 // indirect
+	go.etcd.io/etcd/client/v3 v3.5.12 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
@@ -121,6 +133,7 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/genproto v0.0.0-20231106174013-bbf56f31fb17 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20231030173426-d783a09b4405 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231120223509-83a465c0220f // indirect
 	google.golang.org/grpc v1.59.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
