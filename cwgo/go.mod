@@ -10,7 +10,7 @@ replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
 
 replace github.com/cloudwego-contrib/cwgo-pkg/config/consul => ../../cwgo-pkg/config/consul
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/utils => ../../cwgo-pkg/config/utils
+replace github.com/cloudwego-contrib/cwgo-pkg/config/common => ../../cwgo-pkg/config/common
 
 replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos => ../../cwgo-pkg/registry/nacos
 
@@ -40,6 +40,8 @@ replace github.com/cloudwego-contrib/cwgo-pkg/config/zookeeper => ../../cwgo-pkg
 
 replace github.com/cloudwego-contrib/cwgo-pkg/config/apollo => ../../cwgo-pkg/config/apollo
 
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/options => ../../cwgo-pkg/registry/nacos/options
+
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/config/apollo v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/config/consul v0.0.0-00010101000000-000000000000
@@ -58,7 +60,7 @@ require (
 	github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb v0.0.0-00010101000000-000000000000
 	github.com/cloudwego-contrib/cwgo-pkg/registry/zookeeper v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/hertz v0.9.3
-	github.com/cloudwego/kitex v0.11.0
+	github.com/cloudwego/kitex v0.11.3
 	github.com/cloudwego/kitex-examples v0.3.3
 	github.com/go-chassis/sc-client v0.7.1-0.20220829010936-e0ff6c891c04
 	github.com/hashicorp/consul/api v1.29.4
@@ -71,7 +73,7 @@ require (
 	github.com/alibabacloud-go/debug v1.0.0 // indirect
 	github.com/alibabacloud-go/tea v1.1.17 // indirect
 	github.com/alibabacloud-go/tea-utils v1.4.4 // indirect
-	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1800 // indirect
+	github.com/aliyun/alibaba-cloud-sdk-go v1.63.27 // indirect
 	github.com/aliyun/alibabacloud-dkms-gcs-go-sdk v0.2.2 // indirect
 	github.com/aliyun/alibabacloud-dkms-transfer-go-sdk v0.1.7 // indirect
 	github.com/apache/thrift v0.20.0 // indirect
@@ -86,13 +88,14 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/clbanning/mxj v1.8.4 // indirect
-	github.com/cloudwego-contrib/cwgo-pkg/config/utils v0.0.0-00010101000000-000000000000 // indirect
+	github.com/cloudwego-contrib/cwgo-pkg/config/common v0.0.0-00010101000000-000000000000 // indirect
+	github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/options v0.0.0-00010101000000-000000000000 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/configmanager v0.2.2 // indirect
 	github.com/cloudwego/dynamicgo v0.4.0 // indirect
 	github.com/cloudwego/fastpb v0.0.5 // indirect
 	github.com/cloudwego/frugal v0.2.0 // indirect
-	github.com/cloudwego/gopkg v0.1.1 // indirect
+	github.com/cloudwego/gopkg v0.1.2 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/cloudwego/localsession v0.0.2 // indirect
 	github.com/cloudwego/netpoll v0.6.4 // indirect
@@ -112,7 +115,7 @@ require (
 	github.com/go-chassis/foundation v0.4.0 // indirect
 	github.com/go-chassis/openlog v1.1.3 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
-	github.com/go-zookeeper/zk v1.0.3 // indirect
+	github.com/go-zookeeper/zk v1.0.4 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
@@ -147,6 +150,7 @@ require (
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
 	github.com/nyaruka/phonenumbers v1.0.55 // indirect
 	github.com/op/go-logging v0.0.0-20160315200505-970db520ece7 // indirect
+	github.com/opentracing/opentracing-go v1.2.1-0.20220228012449-10b1cf09e00b // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
@@ -184,7 +188,7 @@ require (
 	google.golang.org/grpc v1.59.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/gcfg.v1 v1.2.3 // indirect
-	gopkg.in/ini.v1 v1.66.2 // indirect
+	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
