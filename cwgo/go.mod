@@ -2,45 +2,45 @@ module cwgo-test
 
 go 1.21
 
-replace github.com/hertz-contrib/registry/consul => ../../registry/consul
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/consul => ../../cwgo-pkg/registry/consul
+
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/consul => ../../cwgo-pkg-registry/registry/consul
 
 replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/consul => ../../cwgo-pkg/config/consul
+replace github.com/cloudwego-contrib/cwgo-pkg/config/consul => ../../cwgo-pkg-registry/config/consul
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/common => ../../cwgo-pkg/config/common
+replace github.com/cloudwego-contrib/cwgo-pkg/config/common => ../../cwgo-pkg-registry/config/common
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos => ../../cwgo-pkg/registry/nacos
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos => ../../cwgo-pkg-registry/registry/nacos
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 => ../../cwgo-pkg/registry/nacos/nacoshertz/v2
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoshertz/v2 => ../../cwgo-pkg-registry/registry/nacos/nacoshertz/v2
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos => ../../cwgo-pkg/config/nacos
+replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos => ../../cwgo-pkg-registry/config/nacos
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 => ../../cwgo-pkg/config/nacos/v2
+replace github.com/cloudwego-contrib/cwgo-pkg/config/nacos/v2 => ../../cwgo-pkg-registry/config/nacos/v2
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoskitex/v2 => ../../cwgo-pkg/registry/nacos/nacoskitex/v2
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/nacoskitex/v2 => ../../cwgo-pkg-registry/registry/nacos/nacoskitex/v2
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/etcd => ../../cwgo-pkg/registry/etcd
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/etcd => ../../cwgo-pkg-registry/registry/etcd
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/etcd => ../../cwgo-pkg/config/etcd
+replace github.com/cloudwego-contrib/cwgo-pkg/config/etcd => ../../cwgo-pkg-registry/config/etcd
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/eureka => ../../cwgo-pkg/registry/eureka
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/eureka => ../../cwgo-pkg-registry/registry/eureka
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/polaris => ../../cwgo-pkg/registry/polaris
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/polaris => ../../cwgo-pkg-registry/registry/polaris
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/redis => ../../cwgo-pkg/registry/redis
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/redis => ../../cwgo-pkg-registry/registry/redis
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb => ../../cwgo-pkg/registry/servicecomb
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/servicecomb => ../../cwgo-pkg-registry/registry/servicecomb
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/zookeeper => ../../cwgo-pkg/registry/zookeeper
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/zookeeper => ../../cwgo-pkg-registry/registry/zookeeper
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/zookeeper => ../../cwgo-pkg/config/zookeeper
+replace github.com/cloudwego-contrib/cwgo-pkg/config/zookeeper => ../../cwgo-pkg-registry/config/zookeeper
 
-replace github.com/cloudwego-contrib/cwgo-pkg/config/apollo => ../../cwgo-pkg/config/apollo
+replace github.com/cloudwego-contrib/cwgo-pkg/config/apollo => ../../cwgo-pkg-registry/config/apollo
 
-replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/options => ../../cwgo-pkg/registry/nacos/options
+replace github.com/cloudwego-contrib/cwgo-pkg/registry/nacos/options => ../../cwgo-pkg-registry/registry/nacos/options
 
 require (
 	github.com/cloudwego-contrib/cwgo-pkg/config/apollo v0.0.0-00010101000000-000000000000
