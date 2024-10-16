@@ -1,2 +1,2 @@
 # cwgo-pkg-tests
-test for cwgo-pkg
+use example for cwgo-pkg
