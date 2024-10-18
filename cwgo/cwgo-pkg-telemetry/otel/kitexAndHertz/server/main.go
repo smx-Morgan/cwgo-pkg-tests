@@ -38,10 +38,8 @@ func main() {
 	)
 	defer p.Shutdown(context.Background())
 
-	go runHttpServer()
 	go runRPCServer()
-
-	select {}
+	runHttpServer()
 }
 
 func runHttpServer() {
@@ -55,7 +53,6 @@ func runHttpServer() {
 		hlog.CtxDebugf(c, "message received successfully: %s", req.Message)
 		ctx.JSON(consts.StatusOK, "resp")
 	})
-
 	h.Spin()
 }
 
