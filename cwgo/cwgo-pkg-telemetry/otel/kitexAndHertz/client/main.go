@@ -2,26 +2,27 @@ package main
 
 import (
 	"context"
-	"cwgo-test/cwgo-pkg-telemetry/thrift/kitex_gen/api"
-	"cwgo-test/cwgo-pkg-telemetry/thrift/kitex_gen/api/hello"
 	"math/rand"
 	"os"
 	"strconv"
 	"time"
 
+	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api"
+	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api/hello"
+
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/instrumentation/otelhertz"
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/instrumentation/otelkitex"
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/provider/otelprovider"
-	"github.com/cloudwego/hertz/pkg/common/hlog"
 	hertzclient "github.com/cloudwego/hertz/pkg/app/client"
+	"github.com/cloudwego/hertz/pkg/common/hlog"
 	kitexclient "github.com/cloudwego/kitex/client"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 
-	kitexlogrus "github.com/kitex-contrib/obs-opentelemetry/logging/logrus"
 	hertzlogrus "github.com/hertz-contrib/obs-opentelemetry/logging/logrus"
+	kitexlogrus "github.com/kitex-contrib/obs-opentelemetry/logging/logrus"
 )
 
 func main() {

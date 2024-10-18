@@ -18,7 +18,6 @@ package main
 
 import (
 	"context"
-	"cwgo-test/cwgo-pkg-telemetry/thrift/kitex_gen/api"
 
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/instrumentation/otelhertz"
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/provider/otelprovider"
@@ -26,6 +25,7 @@ import (
 	"github.com/cloudwego/hertz/pkg/app/server"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/cloudwego/kitex-examples/kitex_gen/api"
 	hertzlogrus "github.com/hertz-contrib/obs-opentelemetry/logging/logrus"
 )
 

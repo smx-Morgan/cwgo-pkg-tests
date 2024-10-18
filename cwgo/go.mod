@@ -69,6 +69,7 @@ require (
 	github.com/kitex-contrib/obs-opentelemetry/logging/logrus v0.0.0-20240205032422-93b4c82b7dcd
 	github.com/nacos-group/nacos-sdk-go v1.1.5
 	github.com/nacos-group/nacos-sdk-go/v2 v2.2.7
+	github.com/prometheus/client_golang v1.19.1
 	go.opentelemetry.io/otel v1.28.0
 )
 
@@ -160,7 +161,6 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/polarismesh/polaris-go v1.3.0 // indirect
-	github.com/prometheus/client_golang v1.19.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.55.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect

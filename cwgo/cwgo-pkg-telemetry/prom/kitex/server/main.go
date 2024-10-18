@@ -18,11 +18,12 @@ package main
 
 import (
 	"context"
-	"cwgo-test/cwgo-pkg-telemetry/thrift/kitex_gen/api"
-	"cwgo-test/cwgo-pkg-telemetry/thrift/kitex_gen/api/hello"
 	"errors"
 	"net"
 	"time"
+
+	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api"
+	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api/hello"
 
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/instrumentation/otelkitex"
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/provider/promprovider"

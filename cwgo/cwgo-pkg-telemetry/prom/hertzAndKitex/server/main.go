@@ -2,20 +2,21 @@ package main
 
 import (
 	"context"
-	"cwgo-test/cwgo-pkg-telemetry/thrift/kitex_gen/api"
-	"cwgo-test/cwgo-pkg-telemetry/thrift/kitex_gen/api/hello"
 	"net"
+
+	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api"
+	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api/hello"
 
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/instrumentation/otelhertz"
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/instrumentation/otelkitex"
 	"github.com/cloudwego-contrib/cwgo-pkg/telemetry/provider/promprovider"
 	"github.com/cloudwego/hertz/pkg/app"
 	hertzserver "github.com/cloudwego/hertz/pkg/app/server"
-	kitexserver "github.com/cloudwego/kitex/server"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	kitexserver "github.com/cloudwego/kitex/server"
 )
 
 func main() {
